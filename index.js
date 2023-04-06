@@ -66,29 +66,564 @@ console.log(sumArray1);
 console.log(sumArray2);
 
 console.log('---------------------');
-console.log('Funkcijos');
+console.log('Kintamųjų palyginimas');
 
 console.log(1 + ' uzduotis');
 
-function tusciaFunkcija() {
-    return 'false'
+console.log('a.');
+
+if (num1 > num2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
 }
-console.log(tusciaFunkcija());
+
+if (num1 > num3) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num2 > num1) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num2 > num3) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num3 > num1) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num3 > num2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('b.');
+
+if (num1 < num2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num1 < num3) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num2 < num1) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num2 < num3) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num3 < num1) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num3 < num2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('c.');
+
+if (num1 === num2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num1 === num3) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num2 === num1) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num2 === num3) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num3 === num1) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num3 === num2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('d.');
+
+if (num1 !== num2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num1 !== num3) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num2 !== num1) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num2 !== num3) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num3 !== num1) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num3 !== num2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('e.');
+
+if (num1 >= num2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num1 >= num3) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num2 >= num1) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num2 >= num3) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num3 >= num1) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num3 >= num2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('f.');
+
+if (num1 <= num2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num1 <= num3) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num2 <= num1) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num2 <= num3) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num3 <= num1) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (num3 <= num2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
 
 console.log(2 + ' uzduotis');
 
-const skaicius1 = 9;
-const skaicius2 = 17;
-const skaicius3 = 33;
+console.log(word1.length);
+console.log(word2.length);
+console.log(word3.length);
 
-function daugyba(a, b) {
-    const sandauga = a * b;
-    return sandauga;
+console.log(3 + ' uzduotis');
+
+console.log('a.');
+
+if (word1.length > word2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
 }
 
-console.log(daugyba(skaicius1, skaicius2));
-console.log(daugyba(skaicius3, skaicius2));
-console.log(daugyba(skaicius1, skaicius3));
-console.log(daugyba(2, 7));
+if (word1.length > word3.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
 
+if (word2.length > word1.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
 
+if (word2.length > word3.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word3.length > word1.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word3.length > word2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('b.');
+
+if (word1.length < word2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word1.length < word3.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word2.length < word1.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word2.length < word3.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word3.length < word1.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word3.length < word2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('c.');
+
+if (word1.length === word2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word1.length === word3.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word2.length === word1.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word2.length === word3.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word3.length === word1.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word3.length === word2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('d.');
+
+if (word1.length !== word2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word1.length !== word3.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word2.length !== word1.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word2.length !== word3.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word3.length !== word1.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word3.length !== word2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('e.');
+
+if (word1.length >= word2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word1.length >= word3.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word2.length >= word1.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word2.length >= word3.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word3.length >= word1.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word3.length >= word2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('f.');
+
+if (word1.length <= word2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word1.length <= word3.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word2.length <= word1.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word2.length <= word3.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word3.length <= word1.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (word3.length <= word2.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log(4 + ' uzduotis');
+
+const flowers = ['peoney', 'rose', 'tulip', 'jasmine'];
+const countries = ['Italy', 'Lithuania', 'Poland', 'UK', 'Australia', 'Germany', 'Canada'];
+
+console.log(flowers.length);
+console.log(countries.length);
+
+console.log(5 + ' uzduotis');
+
+console.log('a.');
+
+if (flowers.length > countries.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (countries.length > flowers.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('b.');
+
+if (flowers.length < countries.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (countries.length < flowers.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('c.');
+
+if (flowers.length === countries.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (countries.length === flowers.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('d.');
+
+if (flowers.length !== countries.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (countries.length !== flowers.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('e.');
+
+if (flowers.length >= countries.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (countries.length >= flowers.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+console.log('f.');
+
+if (flowers.length <= countries.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
+
+if (countries.length <= flowers.length) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kitą kartą.');
+}
