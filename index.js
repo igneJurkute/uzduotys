@@ -627,3 +627,81 @@ if (countries.length <= flowers.length) {
 } else {
     console.log('Bandykite kitą kartą.');
 }
+
+console.log('---------------------');
+console.log('Ciklo for panaudojimas');
+
+console.log('1 uzduotis');
+
+console.log('a.');
+
+let sum1 = '';
+for (let i = 0; i <= 0; i++){
+    sum1 = sum1++ + i;
+}
+console.log(sum1);
+
+console.log('b.');
+
+let sum2 = '';
+for (let i = 0; i <= 4; i++){
+    sum2 = sum2++ + i;
+}
+console.log(sum2);
+
+console.log('c.');
+
+let sum3 = '';
+for (let i = 0; i <= 100; i++){
+    sum3 = sum3++ + i;
+}
+console.log(sum3);
+
+console.log('d.');
+
+let sum4 = '';
+for (let i = 574; i <= 815; i++){
+    sum4 = sum4++ + i;
+}
+console.log(sum4);
+
+console.log('e.');
+
+let sum5 = '';
+for (let i = -50; i <= 50; i++){
+    sum5 = sum5++ + i;
+}
+console.log(sum5);
+
+console.log('e.');
+
+let sum6 = '';
+for (let i = -70; i <= 30; i++){
+    sum6 = sum6++ + i;
+}
+console.log(sum6);
+
+console.log('2 uzduotis');
+
+let pienas = 'pienas';
+let calc = '';
+
+
+for (let i = pienas.length - 1; i >= 0; i--){
+    calc += pienas[i];
+}
+    console.log(calc);
+
+// console.log(pienas[5] + pienas[4] + pienas[3] + pienas[2] + pienas[1] + pienas[0]);
+
+let abc = 'abcdef';
+let reverse = '';
+
+for (let i = abc.length - 1; i >= 0; i--){
+    reverse = reverse + abc[i];
+}
+console.log(reverse);
+
+console.log('3 uzduotis');
+
+

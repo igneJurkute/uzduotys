@@ -24,3 +24,6 @@ console.log(daugyba(skaicius1, skaicius2));
 console.log(daugyba(skaicius3, skaicius2));
 console.log(daugyba(skaicius1, skaicius3));
 console.log(daugyba(2, 7));
+
+
+
