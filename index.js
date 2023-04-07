@@ -704,4 +704,68 @@ console.log(reverse);
 
 console.log('3 uzduotis');
 
+console.log('a.');
+
+let vnt = '';
+let vnt1 = '';
+let vnt2 = '';
+for (let i = 0; i < 11; i++){
+    if (i % 3 === 0){
+        vnt++;
+    }
+    if (i % 5 === 0){
+        vnt1++;
+    }
+    if (i % 7 === 0){
+        vnt2++;
+    }
+}
+console.log(`Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 3 yra ${vnt} vienetai.`);
+console.log(`Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 3 yra ${vnt1} vienetai.`);
+console.log(`Skaičių intervale tarp 0 ir 11, besidalijančių be liekanos iš 3 yra ${vnt2} vienetai.`);
+
+console.log('b');
+
+let v = '';
+let v1 = '';
+let v2 = '';
+for (let i = 8; i < 31; i++){
+    if (i % 3 === 0){
+        v++;
+    }
+    if (i % 5 === 0){
+        v1++;
+    }
+    if (i % 7 === 0){
+        v2++;
+    }
+}
+console.log(`Skaičių intervale tarp 8 ir 31, besidalijančių be liekanos iš 3 yra ${v} vienetai.`);
+console.log(`Skaičių intervale tarp 8 ir 31, besidalijančių be liekanos iš 3 yra ${v1} vienetai.`);
+console.log(`Skaičių intervale tarp 8 ir 31, besidalijančių be liekanos iš 3 yra ${v2} vienetai.`);
+
+console.log('c');
+
+let vn = '';
+let vn1 = '';
+let vn2 = '';
+for (let i = -18; i < 18; i++){
+    if (i % 3 === 0){
+        vn++;
+    }
+    if (i % 5 === 0){
+        vn1++;
+    }
+    if (i % 7 === 0){
+        vn2++;
+    }
+}
+console.log(`Skaičių intervale tarp -18 ir 18, besidalijančių be liekanos iš 3 yra ${vn} vienetai.`);
+console.log(`Skaičių intervale tarp -18 ir 18, besidalijančių be liekanos iš 3 yra ${vn1} vienetai.`);
+console.log(`Skaičių intervale tarp -18 ir 18, besidalijančių be liekanos iš 3 yra ${vn2} vienetai.`);
+
+
+
+
+
 
