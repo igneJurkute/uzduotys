@@ -121,18 +121,21 @@ console.log('-------------------------');
 console.log(6 + ' uzduotis');
 
 function dalyba (a, b) {
-      if (typeof a !== 'number' || !isFinite (a)) {
-          return('Pirmasis kintamasis yra netinkamo tipo');
-      } else if (typeof b !== 'number' || !isFinite (b)) {
-          return('Antrasis kintamasis yra netinkamo tipo');
-      } else if ((typeof a !== 'number') && (typeof b !== 'number')) {
-        return('Abu kintamieji netinkamo tipo');
-      } else {
+    if (typeof a !== 'number' && typeof b !== 'number'){
+        return ('Abu kintamieji netinkamo tipo');
+    } else if (typeof a !== 'number' || !isFinite (a) && typeof b === 'number'){
+        return ('Pirmasis kintamasis yra netinkamo tipo');
+    }  else if (typeof b !== 'number' || !isFinite (b) && typeof a === 'number'){
+        return ('Antrasis kintamasis yra netinkamo tipo');
+    } else {
         return a / b;
-      }
+    }
 }
+
+
 console.log(dalyba(6, 'ggg'));
 console.log(dalyba(10, 6));
 console.log(dalyba(15, 5));
 console.log(dalyba('abc', 'efg'));
+console.log(dalyba(true, 25));
 
